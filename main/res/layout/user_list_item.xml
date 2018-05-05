@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_image_list"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/ic_user_profile"/>
+
+    <TextView
+        android:id="@+id/user_name_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="80dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:padding="15dp"
+        android:text="Carregando"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+</RelativeLayout>
